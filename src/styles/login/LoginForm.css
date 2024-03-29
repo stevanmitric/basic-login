@@ -1,0 +1,47 @@
+.card-wrapper {
+  display: flex;
+  width: 100%;
+  min-height: 100vmin;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-div {
+  width: 18%;
+}
+
+.card-wrapper h1, .card-wrapper h2 {
+  font-size: 36px;
+  text-align: center;
+  color: #fff;
+}
+
+.submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10%;
+  width: 80%;
+  height: 45px;
+  color: #fff !important;
+  background: none !important;
+  border-radius: 50px;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.submit:hover {
+  color: #fff !important;
+  background: none !important;
+  transform: scale(1.1);
+  border-color: #fff !important;
+}
+
+.input {
+  border-radius: 35px;
+  width: 100%;
+}
+
+.input::placeholder {
+  color: #fff;
+}
